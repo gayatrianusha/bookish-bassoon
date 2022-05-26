@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="classes" name="Failed suite [MainSuite]">
+  <test parallel="classes" name="Groups Test(failed)">
+    <groups>
+      <run>
+        <include name="Motor"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="BasicsMain.TestNGDependsOnGroups">
+        <methods>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- BasicsMain.TestNGDependsOnGroups -->
+    </classes>
+  </test> <!-- Groups Test(failed) -->
+</suite> <!-- Failed suite [MainSuite] -->
