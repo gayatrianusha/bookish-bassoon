@@ -22,7 +22,7 @@ public class LinksTest {
 		System.out.println(footerLinks.findElements(By.tagName("a")).size());
 		WebElement footerpartLinks=footerLinks.findElement(By.xpath("//table/tbody/tr/td[1]/ul"));
 		System.out.println(footerpartLinks.findElements(By.tagName("a")).size());
-		driver.close();
+		
 	}
 
 }
